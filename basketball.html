@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="basketball.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score</title>
+</head>
+<body>
+    <div class="card">   
+        <div class="score">
+            <h1 class="team-name">HOME</h1>
+            <div class="screen">
+                <div class="score-background">
+                    <h1 class="score-el" id="score2-el">0</h1>
+                </div>
+                <div class="btn">
+                <button id="l-add1" onclick="ladd1()">+1</button>
+                <button id="l-add2" onclick="ladd2()">+2</button>
+                <button id="l-add3" onclick="ladd3()">+3</button>
+                </div>
+            
+            </div>
+        </div>
+    
+
+
+
+
+
+    
+        <div class="score">
+            <h1 class="team-name">GUST</h1>
+            <div class="screen">
+                <div class="score-background">
+                    <h1 class="score-el" id="score1-el">0</h1>
+                </div>
+                <div class="btn">
+                    <button id="r-add1" onclick="radd1()">+1</button>
+                    <button id="r-add2" onclick="radd2()">+2</button>
+                    <button id="r-add3" onclick="radd3()">+3</button>
+                </div>
+            
+            </div>
+        </div>
+    </div>     
+    
+
+
+    <button class="reset-btn" onclick="reset()">Reset</button>
+
+
+
+    <script src="basketball.js"></script>
+
+
+</body>
+</html>

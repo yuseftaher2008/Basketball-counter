@@ -1,0 +1,87 @@
+@font-face {
+  font-family:"score-font";
+  src: url("CursedTimerULiL.ttf") format("truetype");
+}
+
+
+
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    font-family:"score-font";
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.score-background{
+    width: 160px;
+    height: 120px;
+    background-color: #080001;
+    margin: 5px 0 20px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none ;
+    border-radius: 5px;
+}
+
+.team-name{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+    color: #EEEEEE;
+    text-align: center;
+
+}
+.score-el{
+    line-height: 1;
+    font-size: 60px;
+    
+    color: #F94F6D;
+    margin: 0;
+    
+
+}
+.btn{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+
+}
+button{
+    
+    margin: 0 5px;
+    font-family: "score-font";
+    background-color:transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+
+
+}
+button:hover{
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 80px;
+}
+
+.reset-btn{
+    margin: 40px 0 0 0 ;
+    
+}
